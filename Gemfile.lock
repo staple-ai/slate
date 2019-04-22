@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/rails/sprockets.git
-  revision: 9e3f0d8e98c44f57e67bc138db87bb8469bf5ddd
-  specs:
-    sprockets (4.0.0.beta8)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -179,6 +171,9 @@ GEM
       ffi (~> 1.9)
       rake
     servolux (0.13.0)
+    sprockets (3.7.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -211,7 +206,6 @@ DEPENDENCIES
   rails
   redcarpet (~> 3.4.0)
   rouge (~> 2.0.5)
-  sprockets!
   therubyracer
 
 BUNDLED WITH
