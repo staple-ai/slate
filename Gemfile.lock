@@ -206,6 +206,7 @@ DEPENDENCIES
   rails
   redcarpet (~> 3.4.0)
   rouge (~> 2.0.5)
+  sprockets
   therubyracer
 
 BUNDLED WITH
