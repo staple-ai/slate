@@ -4,9 +4,6 @@ gem 'annotate'
 gem 'bourbon'
 gem 'coderay', '~> 1.1.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'devise'
-gem 'figaro'
-gem 'inherited_resources', git: 'https://github.com/josevalim/inherited_resources'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-easing-rails'
 gem 'jquery-rails'
@@ -23,7 +20,7 @@ gem 'rails_12factor', group: :production
 gem 'redcarpet', '~> 3.2.3'
 gem 'rouge', '~> 2.0.5'
 gem 'rubyzip'
-gem 'sass-rails', '~> 5.0'
+gem 'sassc'
 gem 'uglifier', '>= 1.3.0'
 
 group :development do
