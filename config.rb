@@ -1,5 +1,7 @@
 # Unique header generation
 require './lib/unique_head.rb'
+require "normalize-scss"
+require 'v8'
 
 # Markdown
 set :markdown_engine, :redcarpet

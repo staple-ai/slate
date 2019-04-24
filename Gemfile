@@ -1,23 +1,24 @@
  source 'https://rubygems.org'
 
 gem 'middleman'
-gem 'middleman-syntax'
-gem 'middleman-autoprefixer'
-gem 'middleman-sprockets'
-gem 'redcarpet', '~> 3.2.3'
+# gem 'middleman-syntax'
+# gem 'middleman-autoprefixer'
+# gem 'middleman-sprockets'
+# gem 'redcarpet', '~> 3.2.3'
+# gem 'rouge', '~> 2.0.5'
+# # gem 'sassc'
+# # gem 'sassc-rails'
+# gem 'sprockets'
+# gem 'uglifier', '>= 1.3.0'
+
+gem 'middleman-syntax', '~> 3.0.0'
+gem 'middleman-autoprefixer', '~> 2.7.0'
+gem 'middleman-sprockets', '~> 4.1.0'
+gem 'nokogiri', '~> 1.8.2'
+gem 'normalize-scss'
+gem 'normalize-rails'
 gem 'rouge', '~> 2.0.5'
-gem 'sassc'
-gem 'uglifier', '>= 1.3.0'
-
-group :development do
-  gem 'listen', '~> 3.0.5'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console'
-end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-
+gem 'redcarpet', '~> 3.4.0'
+gem 'sprockets', github: 'rails/sprockets'
+gem 'therubyracer'
 
